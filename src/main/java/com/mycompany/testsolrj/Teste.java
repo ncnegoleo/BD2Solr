@@ -23,8 +23,8 @@ public class Teste {
 
     public static void main(String[] args) {
         try {
-            indexFilesSolrCell("pdf.pdf", "pdf.pdf");
-        } catch (Exception e) {
+            indexFilesSolrCell("pdf2.pdf", "pdf2.pdf");
+        } catch (IOException | SolrServerException e) {
             System.out.println(e.toString());
         }
 
